@@ -1,6 +1,8 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   reactCompiler: true,
+  basePath: '/app/test',
+  assetPrefix: '/app/test/',
   
   redirects() {
     return [
